@@ -4,7 +4,7 @@ const LoginCard = () => {
     return (
         <div className="card bg-dark">
             <div className="card-body">
-                <h4 className="card-title">Login to your Account</h4>
+                <h4 className="card-title text-center">Login to your Account</h4>
                 <form className="py-3">
                     <div className="form-group">
                         <label htmlFor="exampleInputEmail1">Email address</label>
@@ -16,7 +16,7 @@ const LoginCard = () => {
                     </div>
                     <div className="form-group form-check">
                     </div>
-                    <div className="pt-3">
+                    <div className="pt-2">
                         <button type="submit" className="btn btn-primary">Submit</button>
                     </div>
                 </form>
