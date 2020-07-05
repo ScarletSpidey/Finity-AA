@@ -1,11 +1,16 @@
 import React from 'react';
+import NavBar from '../ui/NavBar/Navbar';
+import Footer from '../ui/Footer/Footer';
+import Login from './Login';
 
 const LoginPage = () => {
     return (
         <React.Fragment>
-            <div className="text-primary">
-                Login Page
+            <NavBar />
+            <div className="p-5">
+                <Login />
             </div>
+            <Footer />
         </React.Fragment>
     )
 }
