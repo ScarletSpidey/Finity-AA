@@ -17,7 +17,7 @@ const LoginCard = () => {
                     <div className="form-group form-check">
                     </div>
                     <div className="pt-2">
-                        <button type="submit" className="btn btn-primary">Submit</button>
+                        <button type="submit" className="btn btn-primary px-4 h4">Submit</button>
                     </div>
                 </form>
             </div>
