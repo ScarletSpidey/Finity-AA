@@ -6,7 +6,7 @@ const NavBar = () => {
     return(
 
         <div className="py-2 px-5">
-            <nav className="navbar navbar-expand-lg">
+            <nav className="navbar navbar-expand-lg navbar-dark">
             <a className="navbar-brand text-white pl-3" href="/">
                 <img src={logo} width={50} height={50} className="d-inline-block align-top font-weight-bold" alt loading="lazy" />
                 &nbsp;Finity
@@ -21,11 +21,12 @@ const NavBar = () => {
                     <a className="nav-link text-white font-weight-bold h5" href="#">Home <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item px-2">
-                    <a className="nav-link text-white font-weight-bold h5" href="#">About</a>
+                    <a className="nav-link text-white font-weight-bold h5" href="#">About us</a>
                     </li>
                 </ul>
-                    
-                    <a className="btn btn-tertiary my-2 my-sm-0 px-4 py-2" type="submit">Register</a>
+                    <div className="mx-2">
+                        <a className="btn btn-tertiary my-2 my-sm-0 mx-2 px-4 py-2" type="submit">Register</a>
+                    </div>
                 </div>
             </nav>
         </div>

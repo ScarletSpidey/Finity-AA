@@ -6,7 +6,7 @@ import image from '../../assets/images/login.svg';
 const Login = () => {
     return(
         <div className="container">
-            <div className="py-5">
+            <div className="py-4">
 
                 
                 <div className="row">
