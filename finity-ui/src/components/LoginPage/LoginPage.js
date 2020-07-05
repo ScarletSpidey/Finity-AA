@@ -7,7 +7,7 @@ const LoginPage = () => {
     return (
         <React.Fragment>
             <NavBar />
-            <div className="p-5">
+            <div className="mt-3 p-5">
                 <Login />
             </div>
             <Footer />

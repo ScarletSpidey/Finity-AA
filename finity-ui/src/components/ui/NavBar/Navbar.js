@@ -25,7 +25,7 @@ const NavBar = () => {
                     </li>
                 </ul>
                     <div className="mx-2">
-                        <a className="btn btn-tertiary my-2 my-sm-0 mx-2 px-4 py-2" type="submit">Register</a>
+                        <a className="btn btn-success my-2 my-sm-0 mx-2 px-4 py-2" type="submit">Register</a>
                     </div>
                 </div>
             </nav>
