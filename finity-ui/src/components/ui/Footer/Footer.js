@@ -19,13 +19,6 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="col-6 col-md">
-                    <h5 className="heading h6 text-uppercase font-weight-700 mb-3">Solutions</h5>
-                    <ul className="list-unstyled text-small">
-                    <li><a className="text-muted" href="#">Resource</a></li>
-                    <li><a className="text-muted" href="#">Resource name</a></li>
-                    </ul>
-                </div>
-                <div className="col-6 col-md">
                     <h5 className="heading h6 text-uppercase font-weight-700 mb-3">Resources</h5>
                     <ul className="list-unstyled text-small">
                     <li><a className="text-muted" href="#">Business</a></li>
@@ -47,7 +40,7 @@ const Footer = () => {
                 </span>
                 <ul className="nav ml-lg-auto">
                     <li className="nav-item">
-                    <a className="nav-link" href="https://github.com/webpixels" target="_blank"><i className="fab fa-github" /></a>
+                    <a className="nav-link" href="https://github.com/" target="_blank"><i className="fab fa-github" /></a>
                     </li>
                 </ul>
                 </div>
