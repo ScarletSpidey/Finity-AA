@@ -8,6 +8,16 @@ const RegisterCard = () => {
         <form>
           <div className='form-row'>
             <div className='form-group col-md-6'>
+              <label htmlFor='inputFName'>First Name</label>
+              <input type='text' className='form-control' id='inputFName4' />
+            </div>
+            <div className='form-group col-md-6'>
+              <label htmlFor='inputLName'>Last Name</label>
+              <input type='text' className='form-control' id='inputLName4' />
+            </div>
+          </div>
+          <div className='form-row'>
+            <div className='form-group col-md-6'>
               <label htmlFor='inputEmail4'>Email</label>
               <input type='email' className='form-control' id='inputEmail4' />
             </div>
