@@ -1,18 +1,18 @@
 import React from 'react';
 import NavBar from '../ui/NavBar/Navbar';
 import Footer from '../ui/Footer/Footer';
-import Login from './Login';
+import Register from './Register';
 
-const LoginPage = () => {
+const RegisterPage = () => {
   return (
     <React.Fragment>
-      <NavBar rightbtn='Register' />
+      <NavBar rightbtn='Login' />
       <div className='mt-3 p-5'>
-        <Login />
+        <Register />
       </div>
       <Footer />
     </React.Fragment>
   );
 };
 
-export default LoginPage;
+export default RegisterPage;
